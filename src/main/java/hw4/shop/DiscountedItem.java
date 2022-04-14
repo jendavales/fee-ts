@@ -1,4 +1,4 @@
-package shop;
+package hw4.shop;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

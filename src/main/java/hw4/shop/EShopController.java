@@ -1,12 +1,12 @@
-package shop;
+package hw4.shop;
 
-import archive.PurchasesArchive;
+import hw4.archive.PurchasesArchive;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
-import storage.*;
-import archive.*;
+import hw4.storage.*;
+import hw4.archive.*;
 
 
 public class EShopController {

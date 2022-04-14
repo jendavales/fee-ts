@@ -1,4 +1,4 @@
-package storage;
+package hw4.storage;
 
 public class NoItemInStorage extends Exception{
     public NoItemInStorage() {

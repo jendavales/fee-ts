@@ -1,10 +1,10 @@
-package storage;
+package hw4.storage;
 
-import archive.PurchasesArchive;
+import hw4.archive.PurchasesArchive;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import shop.*;
+import hw4.shop.*;
 
 public class Storage {
 

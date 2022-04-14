@@ -1,11 +1,11 @@
-package storage;
+package hw4.storage;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import shop.Item;
-import shop.StandardItem;
+import hw4.shop.Item;
+import hw4.shop.StandardItem;
 
 public class ItemStockTest {
     private Item refItem = new StandardItem(1, "ponozky adidas", 5, "ponozky", 5);

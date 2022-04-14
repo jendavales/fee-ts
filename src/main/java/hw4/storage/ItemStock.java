@@ -1,6 +1,6 @@
-package storage;
+package hw4.storage;
 
-import shop.*;
+import hw4.shop.Item;
 
 
 /**

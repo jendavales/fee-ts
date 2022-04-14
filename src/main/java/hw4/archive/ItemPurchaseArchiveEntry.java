@@ -1,6 +1,6 @@
-package archive;
+package hw4.archive;
 
-import shop.Item;
+import hw4.shop.Item;
 
 class ItemPurchaseArchiveEntry {
     private Item refItem;
