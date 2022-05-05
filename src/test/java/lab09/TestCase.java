@@ -1,15 +1,15 @@
-package lab08;
+package lab09;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public abstract class TestCase {
-    protected WebDriver driver;
+    public WebDriver driver;
 
     @BeforeAll
     public void init() {
-        System.setProperty("webdriver.gecko.driver"," ../geckodriver");
-        driver=new FirefoxDriver();
+        System.setProperty("webdriver.gecko.driver", "../geckodriver");
+        driver = new FirefoxDriver();
     }
 }
